@@ -1,21 +1,44 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.container-fluid{
-    background-color: black;
+/* basic css */
 
-}
-.container{
-    width: 1160px;
-    margin: auto;
-}
-.container .row{
-    color: rgb(255, 255, 255);
+#header {
+    background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 75%), url(../images/Banner\ Image.png);
+    background-size: cover;
+    border-radius: 16px;
+    height: 450px;
+    width: 990px;
+    margin: 37px auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.second .row{
-    color: blue;
+#header .header-contain {
+    width: 474px;
+    height: 142;
+
+}
+
+#header .header-contain .subtitle {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#header .header-contain .title {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 70px;
+    letter-spacing: 0%;
+    text-align: center;
 }
