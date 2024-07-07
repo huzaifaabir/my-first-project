@@ -42,3 +42,110 @@
     letter-spacing: 0%;
     text-align: center;
 }
+
+/* header section end  */
+
+#offer .offer {
+    height: 601px;
+    width: 600px;
+    margin: 53px auto;
+
+}
+
+#offer .offer .title {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#offer .offer .discription {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#offer .offer .subtitle {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#offer .offer img {
+    width: 600px;
+    height: 375px;
+    margin-top: 18px;
+}
+
+/* offer section end  */
+
+#welcome .welcome {
+    background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 990px;
+    margin: 37px auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+#welcome .welcome .welcome-contain {
+    margin: 0px 372px 0px 95px;
+}
+
+#welcome .welcome .welcome-contain h1 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 66px;
+    letter-spacing: 11%;
+    text-align: left;
+}
+
+#welcome .welcome .welcome-contain p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#welcome .welcome-contain .btn {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    background:transparent;
+    border: none;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+#welcome .welcome-contain .btn {}
+
+#welcome .welcome-contain {}
+
+#welcome .welcome-contain {}
