@@ -107,7 +107,7 @@
 
 #welcome-section .right-contain img {
     width: 240px;
-    margin: 0px auto;
+    margin: 0px 80px 0px 0px;
 }
 
 .left-contain {
@@ -253,6 +253,7 @@
     letter-spacing: 0%;
     text-align: left;
 }
+
 #new-offer .coming-soon-offer .mid-section img {
     flex: 1;
     width: 273px;
@@ -273,9 +274,10 @@
 
 #new-offer .coming-soon-offer .right-section img {
     width: 90px;
-    
+
 }
-.right-contain{
+
+.right-contain {
     justify-content: left;
     align-items: center;
     margin-left: 71px;
@@ -301,4 +303,146 @@
     padding-bottom: 30px;
 }
 
-#new-offer .coming-soon-offer .right-section {}
+/* new offer section end */
+
+#holyday .holyday-section {
+    height: 740px;
+    width: 990px;
+    margin: 60px auto;
+    position: relative;
+    i
+}
+
+#holyday .holyday-section .holyday-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+#holyday .holyday-section .holyday-title .subtitle {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#holyday .holyday-section .holyday-title .heading span {
+    color: rgb(255, 0, 0);
+}
+
+#holyday .holyday-section .holyday-title .heading {
+    font-family: Merriweather;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 70px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+#holyday .holyday-section .discription {
+    width: 660px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0px 30px;
+}
+
+
+#holyday .holyday-section .holyday-contain {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin: 0px auto;
+    position: relative;
+    z-index: 9999;
+}
+
+#holyday .holyday-section .box {
+    height: 497px;
+    width: 597px;
+
+
+}
+
+#holyday .holyday-section .offer {
+    width: 150px;
+    height: 150px;
+
+}
+
+#holyday .holyday-section .ractangular {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 990px;
+    height: 180px;
+    margin: 0px auto;
+    background: rgb(255, 0, 0);
+}
+
+/* holyday-section end */
+#collection {
+    width: 990px;
+    height: 872px;
+    margin: 60px auto;
+
+}
+
+#collection .header {
+    margin-bottom: 30px;
+}
+
+#collection .header .subtitle {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#collection .header .heading {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+#collection .header .discription {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#collection .image-collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+#collection  .img-item img {
+    height: 337px;
+    width: 318px;
+}
