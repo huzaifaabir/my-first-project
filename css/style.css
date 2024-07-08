@@ -4,7 +4,9 @@
 }
 
 /* basic css */
-
+.body{
+    margin: 0px auto;
+}
 #header {
     background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 75%), url(../images/Banner\ Image.png);
     background-size: cover;
